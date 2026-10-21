@@ -56,7 +56,8 @@ class FatSecretMCPServer {
       {
         name: "fatsecret-mcp-server",
         version: "0.1.0",
-      }
+      },
+      { capabilities: { tools: {} } }
     );
 
     this.configPath = path.join(os.homedir(), ".fatsecret-mcp-config.json");
